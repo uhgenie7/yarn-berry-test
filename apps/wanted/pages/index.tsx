@@ -1,5 +1,5 @@
 import { sayHello } from '@wanted/lib';
-// import { Button } from '@wanted/ui';
+import { Button } from '@wanted/ui';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
