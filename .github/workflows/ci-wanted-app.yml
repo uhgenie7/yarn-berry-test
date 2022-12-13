@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - 6-deploy-github-actions
-    paths:
-      - 'apps/wanted/**'
 
 jobs:
   test:
