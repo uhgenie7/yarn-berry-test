@@ -24,7 +24,22 @@ jobs:
       - name: 📥 Monorepo install
         uses: ./.github/actions/yarn-install
 
-      - name: Build web-app
+      #  - name: typecheck web-app
+      #   working-directory: apps/admin
+      #   run: |
+      #     yarn typecheck
+
+      #   - name: jest web-app
+      #   working-directory: apps/admin
+      #   run: |
+      #     yarn jest
+
+      # - name: e2e web-app
+      #   working-directory: apps/admin
+      #   run: |
+      #     yarn cypress
+
+      - name: build web-app
         working-directory: apps/admin
         run: |
           yarn build
